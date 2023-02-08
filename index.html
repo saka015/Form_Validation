@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Form_Validation</title>
+</head>
+<body>
+    <nav>Made by saka🔥</nav>
+    <form action="/back.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <h1>Fill the below form</h1>
+<div class="formdesign" id="name">
+    Name   <input type="text" name="" id="fname" required> <br> <b><span class="formerror"></span> </b>
+</div>
+
+<div class="formdesign" id="email">
+    Email   <input type="email" name="" id="femail" required> <b><span class="formerror"></span> </b>
+</div>
+
+<div class="formdesign" id="phone">
+    Phone   <input type="phone" name="" id="fphone" required> <b><span class="formerror"></span> </b>
+</div>
+
+<div class="formdesign" id="pass">
+    Password   <input type="password" name="" id="fpass" required> <b><span class="formerror"></span> </b>
+</div>
+
+<div class="formdesign" id="cpass">
+    Confirm Password   <input type="password" name="" id="fcpass" required> <b><span class="formerror"></span> </b>
+</div>
+
+<input class="button" type="submit" value="submit">
+</form>
+<script src="script.js"></script>
+</body>
+</html>

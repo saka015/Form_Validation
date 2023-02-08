@@ -1,0 +1,84 @@
+/* Credits*/
+
+nav{
+    position: absolute;
+    box-shadow: 0px 1px 10px #23242a;
+    padding: 10px;
+
+}
+nav:hover{
+    box-shadow: 0px 1px 10px #23242a;
+    transform: translateY(-2px);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+h1{
+    position: absolute;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: #23242a;
+}
+form{
+    margin-left: 35%;
+    margin-top: 40px;
+    width: 350px;
+    height: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #ecf0f3;
+
+    box-shadow: 14px 14px 20px #cbced1 ;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input{
+    margin: 0 ;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+
+    box-shadow: inset 6px 6px 6px #cbced1 ,inset -6px -6px 6px white ;
+
+}
+
+.button{
+    width: 74%;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    background-color: #23242a;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-top: 8px;
+
+}
+
+.button:hover{
+    box-shadow: 0px 1px 10px #23242a;
+    transform: translateY(-1px);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+span{
+    margin-top: -5px;
+    /* position: absolute; */
+    font-size: 10px;
+    color: red;
+}
+
+.formdesign{
+    padding: 15px;
+}
