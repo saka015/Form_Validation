@@ -82,3 +82,7 @@ span{
 .formdesign{
     padding: 15px;
 }
+
+input:focus{
+outline:none;
+}
